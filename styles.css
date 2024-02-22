@@ -1,0 +1,22 @@
+@import url("reset.css");
+@import url("styles/cpf.css");
+
+:root {
+    --cor-de-fundo: linear-gradient(#fcfcfc, rgb(138, 138, 138));
+    --cor-da-fonte-principal: rgb(177, 119, 192);
+    --cor-da-fonte-secundaria: #000000;
+    --fonte-principal: 'Poppins';
+    --fonte-secundaria: 'Inter';
+}
+
+body {
+    background: url(assets/FundoBody.png);
+    font-family: var(--fonte-principal);
+    color: var(--cor-da-fonte-secundaria);
+}
+
+@media screen and (max-width: 1650px) {
+    body {
+        background: url(assets/FundoBody.png) center no-repeat;
+    }
+}

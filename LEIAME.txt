@@ -1,0 +1,19 @@
+O funcionamento do site para CPF Contemplado é bem simples! 
+
+Ao iniciar o site irá aparecer uma mensagem na qual irá perguntar qual o valor que você deseja
+que apareça na mensagem do crédito contemplado, basta usar o valor sem adição de nenhum carácter
+especial. EXEMPLO:
+
+"Qual valor do crédito que deseja que apareça na mensagem?"
+
+SUA RESPOSTA:
+"3000", ou qualquer outro valor que deseja adicionar, o importante é apenas digitar o número
+sem utilização de "R$".
+
+Após adicionar o valor do crédito, irá ser direcionado para o próprio site, nesse caso,
+você apenas irá adicionar o CPF da pessoa contemplada, clickar no botão "CONSULTAR" e pronto! A
+mensagem irá aparecer logo abaixo.
+
+PARA REFAZER BASTA REINICIAR A PÁGINA!!
+
+OBS: não mexer nos arquivos do site, NÃO HÁ NENHUMA NECESSIDADE DE ALTERAÇÃO DOS CÓDIGOS
