@@ -89,21 +89,15 @@
 
 .area-de-cpf__premiação-contemplado {
     display: block;
-    font-size: 48px;
-    color: #FDBF60;
+    font-size: 58px;
+    color: rgb(255, 187, 0);
+    background-color: black;
+    border-radius: 58px;
+    padding: 1rem 0;
     text-align: center;
     text-transform: uppercase;
     width: 100%;
-    font-family: var(--fonte-secundaria);
-}
-
-.area-de-cpf__premiação-contemplado-prem {
-    display: block;
-    font-size: 42px;
-    word-wrap: break-word;
-    text-align: center;
-    width: 100%;
-    font-family: var(--fonte-secundaria);
+    font-family: var(--fonte-terciaria);
 }
 
 .margin {
@@ -115,35 +109,43 @@
 }
 
 .animação {
-    color: #FF8911;
+    color: rgb(255, 187, 0);
     text-transform: uppercase;
+    font-family: var(--fonte-terciaria);
     font-size: 88px;
+}
+
+.area-de-cpf__premiação-contemplado-destaque {
+    display: block;
+    font-size: 58px;
+    color: rgb(255, 187, 0);
+    background-color: black;
+    border-radius: 58px;
+    padding: 1rem 2rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: var(--fonte-terciaria);
 }
 
 @keyframes animação-prem {
     0% {
-        color: #d90ee0;
-        font-size: 50px;
+        font-size: 58px;
     }
 
     25% {
-        color: #FFF7F1;
-        font-size: 42px;
-    }
-
-    50% {
-        color: #BFEA7C;
         font-size: 50px;
     }
 
+    50% {
+        font-size: 58px;
+    }
+
     75% {
-        color: #FEFBF6;
-        font-size: 42px;
+        font-size: 50px;
     }
 
     100% {
-        color: #d90ee0;
-        font-size: 50px; 
+        font-size: 58px; 
     }
 }
 
@@ -151,6 +153,17 @@
     animation-name: animação-prem;
     animation-duration: 4s;
     animation-iteration-count: infinite;
+}
+
+.area-de-cpf__premiação-contemplado-prem {
+    display: block;
+    font-size: 42px;
+    text-align: center;
+    font-family: var(--fonte-terciaria);
+    background-color: black;
+    border-radius: 58px;
+    padding: 1% 2rem;
+    color: white;
 }
 
 /* codigo tela 1615px */
