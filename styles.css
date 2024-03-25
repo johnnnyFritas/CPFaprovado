@@ -1,9 +1,13 @@
 @import url("reset.css");
 @import url("styles/cpf.css");
+@import url("styles/form.css");
 
 :root {
-    --cor-da-fonte-principal: rgb(177, 119, 192);
+    --cor-da-fonte-principal: rgb(255, 187, 0);
     --cor-da-fonte-secundaria: #000000;
+
+    --cor-de-fundo: #FFFFFF;
+
     --fonte-principal: 'Poppins';
     --fonte-secundaria: 'Inter';
     --fonte-terciaria: 'Anton';
