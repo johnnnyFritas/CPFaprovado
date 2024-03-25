@@ -9,7 +9,7 @@ const handleSubmit = (event) => {
     const password = document.querySelector('input[name=password]').value;
 
     if(nameLogin === 'RafaelSampaio' && password === 'venda102030') {
-        window.location.replace('https://cp-faprovado.vercel.app');
+        window.location.replace('cpfAprovado.html');
     }else {
         alert('Senha incorreta e/ou usuário incorreto(s)!');
         window.location.reload();
