@@ -1,7 +1,7 @@
 // fill the prompt to create the credit value! 
 const premReais = document.getElementById('prem-reais');
 const cred = prompt('Qual o valor do crédito que deseja que apareça na mensagem?');
-premReais.innerHTML = cred + ',00 R$';
+premReais.innerHTML = 'R$' + cred + ',00';
 
 // Funcionamento do Botão.
 const form = document.getElementById('formulario');
